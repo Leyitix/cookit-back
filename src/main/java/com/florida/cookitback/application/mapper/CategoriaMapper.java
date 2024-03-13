@@ -1,4 +1,4 @@
 package com.florida.cookitback.application.mapper;
 
-public interface TipoRecetaMapper {
+public interface CategoriaMapper {
 }
