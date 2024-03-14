@@ -1,13 +1,5 @@
 package com.florida.cookitback.application.dto;
 
-import com.florida.cookitback.domain.entity.Categoria;
-import jakarta.persistence.Column;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Lob;
-import jakarta.persistence.ManyToOne;
-import jakarta.validation.constraints.Positive;
-import jakarta.validation.constraints.Size;
-
 import java.io.Serializable;
 
 public class RecetaDto implements Serializable {

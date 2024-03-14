@@ -8,7 +8,7 @@ import jakarta.validation.constraints.Size;
 public class Categoria {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "categorySequence") // generamos el id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "categoriaSequence") // generamos el id
     private Long id;
 
     @Column(length = 100, nullable = false) // no puede ser nulo
@@ -33,7 +33,7 @@ public class Categoria {
         this.id = id;
     }
 
-    public String getName() {
+    public String getNombre() {
         return nombre;
     }
 
@@ -53,7 +53,7 @@ public class Categoria {
         return imagen;
     }
 
-    public void setImage(byte[] imagen) {
+    public void setImagen(byte[] imagen) {
         this.imagen = imagen;
     }
 }

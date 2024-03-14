@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface CategoriaPersistance {
     List<Categoria> getAllCategorias();
-    Optional<Categoria> getCategoriaById(Long CategoriaId);
-    Categoria saveCategoria(Categoria Categoria);
-    void deleteCategoria(Long CategoriaId);
+    Optional<Categoria> getCategoriaById(Long categoriaId);
+    Categoria saveCategoria(Categoria categoria);
+    void deleteCategoria(Long categoriaId);
 }

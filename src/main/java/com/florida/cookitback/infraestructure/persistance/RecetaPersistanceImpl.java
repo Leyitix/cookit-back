@@ -2,10 +2,12 @@ package com.florida.cookitback.infraestructure.persistance;
 
 import com.florida.cookitback.domain.entity.Receta;
 import com.florida.cookitback.domain.persistence.RecetaPersistance;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class RecetaPersistanceImpl implements RecetaPersistance {
     private final  RecetaRepository recetaRepository;
 

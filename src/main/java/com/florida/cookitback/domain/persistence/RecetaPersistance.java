@@ -9,6 +9,6 @@ public interface RecetaPersistance {
     List<Receta> getAllRecetas();
     List<Receta> getAllRecetasByCategoria(Long categoryId);
     Optional<Receta> getRecetaById(Long recetaId);
-    Receta saveReceta(Receta Receta);
-    void deleteReceta(Long RecetaId);
+    Receta saveReceta(Receta receta);
+    void deleteReceta(Long recetaId);
 }
